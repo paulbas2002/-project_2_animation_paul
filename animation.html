@@ -4,11 +4,18 @@
     <meta charset="utf-8">  <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <svg width="2000" height="2000">
-  <rect x="50" y="50" width="500" height="500" fill="black"/>
-<ellipse cx="290" cy="200" rx="100" ry="200" fill="yellow"/>
-  <circle cx="100" cy="100" r="75" fill="deeppink"/>
-  </svg>
+    <svg width="1000" height="1000">
+
+<ellipse cx="350" cy="250" rx="100" ry="200" fill="yellow"/>
+<circle cx="150" cy="100" r="75" fill="deeppink"><animate attributeName="fill" from="deeppink" to="purple" begin="click" dur="5s" />
+  <circle cx="550" cy="100" r="75" fill="deeppink"><animate attributeName="fill" from="deeppink" to="purple" begin="click" dur="5s" />
+  <rect x="100" y="250" width="50" height="100" fill="blue">
+  <animate attributeName="y" from="250" to="400"repeatCount="indefinite" dur="10s"/>
+  </rect>
+  <rect x="550" y="250" width="50" height="100" fill="blue">
+  <animate attributeName="y" from="250" to="400" repeatCount="indefinite" dur="10s"/>
+  </rect>
+    </svg>
 
 
 
